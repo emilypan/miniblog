@@ -1,8 +1,8 @@
 # MiniBlog
 - package war
-$ mvn clean package -DskipTests
+`$ mvn clean package -DskipTests`
 - deploy
-$ docker run -v /${fullpath}/miniblog-0.0.1-SNAPSHOT.war:/usr/local/tomcat/webapps/miniblog.war  --rm -it -p 9001:8080 tomcat
+`$ docker run -v /${fullpath}/miniblog-0.0.1-SNAPSHOT.war:/usr/local/tomcat/webapps/miniblog.war  --rm -it -p 9001:8080 tomcat`
 
 ## Requirement 
 Design and implement a mini blog
